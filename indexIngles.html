@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+<!-- Metadatos de OpenGraph para compartir en redes sociales -->
+<meta property="og:title" content="Sitio de trabajo - Ciudad Real">
+<meta property="og:description" content="Información sobre el sitio de trabajo en Ciudad Real">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ejemplo.com">
+<meta property="og:image" content="https://ejemplo.com/imagen.jpg">
+
+<!-- Metadatos de Twitter para compartir en redes sociales -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:title" content="Sitio de trabajo - Ciudad Real">
+<meta property="twitter:description" content="Información sobre el sitio de trabajo en Ciudad Real">
+<meta property="twitter:url" content="https://ejemplo.com">
+<meta property="twitter:image" content="https://ejemplo.com/imagen.jpg">
     <title>PlayCreen</title>
     <link rel="stylesheet" href="./style/normalize.css">
     <link rel="stylesheet" href="./style/style.css" id="stylesCSS">
@@ -183,8 +197,8 @@
 
 
                 </div>
-                </div>
 
+                
             </aside>
         <section class="container-fluid mt-3 ">
             <div class="movies bg-glass--blue p-3 rounded-2">
@@ -310,19 +324,17 @@
                 </div>
             </section>
 
-            <section class="footer-3">
-                <h4 tabindex="0">Workplace</h4>
-                <p itemprop="jobLocation" itemscope itemtype="https://schema.org/Place" tabindex="0">
-                    city of job:
-                    <span itemprop="name" tabindex="0">Ciudad Real</span>
+            <section class="footer-3" itemscope itemtype="https://schema.org/JobPosting">
+                <h4 itemprop="title">Sitio de trabajo</h4>
+                <p itemprop="jobLocation" itemscope itemtype="https://schema.org/Place">
+                    Ciudad de trabajo:
+                    <span itemprop="name">Ciudad Real</span>
                     <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-
+            
                     </span>
                 </p>
-
-                <p tabindex="0">Enlace a lo otro</p>
-                <p tabindex="0">miguelangelgmm99@gmail.com</p>
-
+                <p>Enlace a lo otro</p>
+                <p itemprop="email">miguelangelgmm99@gmail.com</p>
             </section>
 
 

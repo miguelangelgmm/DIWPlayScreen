@@ -15,7 +15,7 @@ let progressbar;
                     event.stopPropagation();
                 } 
 
-                if(form.checkValidity() && password.value != password2.value){
+                if(form.name != "form2" && (form.checkValidity() && password.value != password2.value)){
                     modal.show();
                     password.value ="";
                     password2.value="";

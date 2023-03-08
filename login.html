@@ -130,12 +130,12 @@
                                     
                             </div>
                             <div class="d-flex my-2">
-                                <a class="d-flex text-decoration-none text-black" href="index.html">
 
-                                <h4>Continuar como invitado</h4> <button class="btn btn-primary ms-2 button--hover">
+                                
+                                <h4>Continuar como invitado</h4> <button class="btn btn-primary ms-2 button--hover" onclick="window.location.href='index.html'">
                                     Entrar</button>
-                                </a>
 
+                                    
                             </div>
                             <hr>
                             <h2 class="pb-2" id="textRegister">Registrarse</h2>
@@ -144,7 +144,7 @@
                             <!--Formulario de registro-->
                             <section id="sectionForm">
                                 <!--Desactivamos la validación automática-->
-                                <form rule="Form"  method="post"  class="row g-3 needs-validation" id="formulary" action="index.html" novalidate>
+                                <form rule="Form"  method="get"  class="row g-3 needs-validation" id="formulary" action="./index.html" novalidate>
                                     <!--Agregar luego action-->
 
                                     <div class="form-floating col-md-6 col-sm-6">
@@ -184,7 +184,7 @@
                                     </div>
 
                                     <div class="form-floating col-5 col-sm-4 col-lg-5 col-xl-4 col-xxl-3">
-                                        <input type="date" class="form-control" id="idDate" placeholder="fecha"
+                                        <input type="date" class="form-control" id="idDate" 
                                             name="date" required>
                                         <label for="idDate" class="ms-2">fecha</label>
                                         <div class="valid-feedback">
@@ -216,7 +216,7 @@
                                             <div class="border border-3 p-2 rounded-4 radioSelected">
                                                 <div class="form-check ">
                                                     <input class="form-check-input" type="radio" name="radioCheck"
-                                                        id="radioCheck1" name="check">
+                                                        id="radioCheck1">
                                                     <label class="form-check-label" for="radioCheck1">
                                                         Pelicula
                                                     </label>
@@ -305,7 +305,7 @@
                             </section>
                             <section id="sectionForm2" class="d-none">
                                 <!--Desactivamos la validación automática-->
-                                <form rule="Form"  method="post"  class="row g-3 needs-validation" id="formulary2" action="index.html"  novalidate>
+                                <form rule="Form" name="form2"  method="get"  class="row g-3 needs-validation" id="formulary2"  action="./index.html"  novalidate>
                                     <!--Agregar luego action-->
 
                                     <div class="form-floating col-md-6 col-sm-6">
@@ -330,7 +330,7 @@
 
 
 
-                                    <button type="submit" class="btn btn-primary button--hover">Registrarse</button>
+                                    <button type="submit" class="btn btn-primary button--hover">Iniciar Sesión</button>
                                 </form>
                             </section>
 
@@ -339,7 +339,6 @@
                 </div>
 
             </section>
-
 
         </div>
 

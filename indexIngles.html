@@ -33,7 +33,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col d-flex">
-                    <h1 class="h1 ps-4 text-white">PlayCreen</h1>
+                    <h1 class="h1 ps-4 text-white" title="PlayCreen">PlayCreen</h1>
                     <figure class="figure__img__logo" itemscope itemtype="https://schema.org/CreativeWork">
                         <img src="./img/logo.png" class="w-100" alt="icono"/>
                         <meta itemprop="creator" content="Miguel Angel" />
@@ -65,22 +65,27 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
                 <div class="d-flex">
-                    <span class="navbar-brand" >Spanish</span>
+                    <span class="navbar-brand" tabindex="0" title="Spanish">Spanish</span>
                     <div class="form-check form-switch navbar-brand">
                         <input class="form-check-input" type="checkbox" id="checkL" name="language" checked>
-                        <label class="form-check-label" for="checkL">English</label>
+                        <label class="form-check-label" for="checkL" tabindex="0" title="Spanish">English</label>
                     </div>
-                    <span class="navbar-brand" >Blue</span>
+                    <span class="navbar-brand" tabindex="0" title="Blue">Blue</span>
                     <div class="form-check form-switch navbar-brand">
                         <input class="form-check-input" type="checkbox" name="color" id="checkCSS">
-                        <label class="form-check-label" for="checkCSS">Green</label>
+                        <label class="form-check-label" for="checkCSS" tabindex="0" title="Blue">Green</label>
                     </div>
                     
                 </div>
             </div>
         </nav>
     </header>
-
+    <div class="audio-flex">
+        <audio controls class="align-content-center">
+            <source src="./music/Alexander_Nakarada_-_The_Return.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
     <main>
         <section class="container-fluid">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -153,21 +158,25 @@
                                 src="./img/icons/punch.png"
                                 alt="accion"
                                 class="w-100 imghover"
+                                tabindex="0"
                             />
                         </figure>
                         <figure>
                             <img
                                 src="./img/icons/mago.png"
-                                alt="fantasia"
+                                alt="fancy"
                                 class="w-100 imghover"
+                                tabindex="0"
                             />
                         </figure>
                         
                         <figure>
                             <img
                                 src="./img/icons/comedia.png"
-                                alt="risa"
+                                alt="laughter"
                                 class="w-100 imghover"
+                                tabindex="0"
+
                             />
                         </figure>
 
@@ -178,14 +187,18 @@
                                 src="./img/icons/drama.png"
                                 alt="drama"
                                 class="w-100 imghover"
+                                tabindex="0"
+
                             />
                         </figure>
 
                         <figure>
                             <img
                                 src="./img/icons/misterio.png"
-                                alt="misterio"
+                                alt="mystery"
                                 class="w-100 imghover"
+                                tabindex="0"
+
                             />
                         </figure>
                         <figure>
@@ -193,6 +206,8 @@
                                 src="./img/icons/rubor.png"
                                 alt="anime"
                                 class="w-100 imghover"
+                                tabindex="0"
+
                             />
                         </figure>
                     </div>
@@ -327,9 +342,9 @@
             </section>
 
             <section class="footer-3" itemscope itemtype="https://schema.org/JobPosting">
-                <h4 itemprop="title">Sitio de trabajo</h4>
+                <h4 itemprop="title">WorkSpace</h4>
                 <p itemprop="jobLocation" itemscope itemtype="https://schema.org/Place">
-                    Ciudad de trabajo:
+                    Work city:
                     <span itemprop="name">Ciudad Real</span>
                     <span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
             

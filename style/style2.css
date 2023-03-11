@@ -12125,3 +12125,7 @@ footer{
 *{
   color: white !important;
 }
+
+.footer__ul__social__img{
+  max-width: 90px;
+}
